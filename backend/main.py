@@ -1,6 +1,8 @@
 # Import FastAPI framework to create API endpoints
 from fastapi import FastAPI, UploadFile, File  
 
+from fastapi import FastAPI
+
 # Import BaseModel to define request body structure
 from pydantic import BaseModel  
 
